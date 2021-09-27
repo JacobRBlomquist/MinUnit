@@ -1,7 +1,7 @@
 # MinUnit
 ## A minimal unit testing framework for C
 
-### Only 2 LOC!!
+### Only 3 SLOC!!
 
 ```c
 #define mu_assert(message, test) do { if (!(test)) return message; } while (0)
